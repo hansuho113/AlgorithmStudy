@@ -23,8 +23,8 @@ def difference(l1, l2):
 
 
 def test_sets_operation_with_list():
-    l1 = [1,2,3,4,5,5,9,11,11,15]
-    l2 = [4,5,6,7,8]
+    l1 = [1, 2, 3, 4, 5, 5, 9, 11, 11, 15]
+    l2 = [4, 5, 6, 7, 8]
     l3 = []
     assert(remove_dup(l1) == [1,2,3,4,5,9,11,15])
     assert(intersection(l1, l2) == [4,5])
