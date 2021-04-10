@@ -1,6 +1,27 @@
 iter_num = int(input())
 
+for each_iter in range(iter_num):
+    paranthesis = input()
+    stack_list = []
+    last_check = 0    # 마지막에 ")"가 오는 경우 대비
 
+    for str_idx in range(len(paranthesis)):
+        each_str = paranthesis[str_idx]
+
+        if each_str == "(":
+            stack_list.append(each_str)
+        elif each_str == ")":
+            if not stack_list:    # 리스트 비어있을 경우
+                last_check += 1
+                break
+            else:
+                stack_list.pop()
+        else:
+            continue
+    if (len(stack_list) != 0) or last_check != 0:
+        print("NO")
+    else:
+        print("YES")
 
 
 
