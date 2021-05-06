@@ -1,3 +1,7 @@
-s = "a \n b"
-print(s)
+import sys
 
+while True:
+    try:
+        print(input())
+    except EOFError:
+        break
