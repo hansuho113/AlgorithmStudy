@@ -54,10 +54,10 @@ for m_num in m_list:
 # import sys
 #
 # n = int(sys.stdin.readline())
-# n_list = list(map(int, sys.stdin.readline().split()))
+# n_list = 01_list(map(int, sys.stdin.readline().split()))
 #
 # m = int(sys.stdin.readline())
-# m_list = list(map(int, sys.stdin.readline().split()))
+# m_list = 01_list(map(int, sys.stdin.readline().split()))
 #
 # for m_num in m_list:
 #     if m_num in n_list:

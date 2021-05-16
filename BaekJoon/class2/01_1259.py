@@ -9,7 +9,7 @@
 #         break
 #
 #     re_idx = -1  # reverse index
-#     re_list = []  # reverse list
+#     re_list = []  # reverse 01_list
 #
 #     for i in range(len(input_num)):
 #         re_list.append(input_num[re_idx])
