@@ -7,19 +7,16 @@ s = time.time()
 while True:
     target = (N//K)*K
     count += (N-target)
-    print(target, count)
     N = target
-    print(N)
     if N<K: break
     count += 1
     N //=K
-    print(N)
-    print('====')
 
 count+=(N-1)
 print(count)
 e = time.time()
-print(s-e)
+print(e-s)
+
 
 #
 #
@@ -47,4 +44,4 @@ print(s-e)
 # print(count)
 # e = time.time()
 #
-# print(s-e)
+# print(e-s)
