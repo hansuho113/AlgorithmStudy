@@ -1,7 +1,8 @@
 # Algorithms_2021
 ALGORITHM
 
-solved_ad / 
+[solved_ad]
+[이코테]
 
 
 ## SOLUTION OF THE BAEKJOON ALGORITHM
