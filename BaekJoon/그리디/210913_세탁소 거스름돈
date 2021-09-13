@@ -1,0 +1,41 @@
+N = int(input())
+
+q, d, n, p = 25, 10, 5, 1 
+
+for i in range(N):
+    c = int(input())
+    print(c//q, (c%q)//d, (c%q%d)//n, (c%q%d%n)//p, sep=' ')
+    
+    
+
+
+
+# 동전을 달러 단위로 표현된 그대로 했더니 제출 시 틀렸다고 나옴
+
+N = int(input())
+
+q, d, n, p = 0.25, 0.1, 0.05, 0.01    # coins
+
+for i in range(N):
+    c = int(input()) / 100    # cent to dollar
+
+    print(int(c // q), int(round((c % q), 2) // d), int(round((c % q % d), 2) // n), int(round((c % q % d % n), 2) // p), sep=' ')
+    
+    
+# 파이썬 round의 경우 DECIMAL TYPE의 경우 EVEN_HALF_ROUND로 (반올림) 되기 때문에 안 됨
+
+import numpy as np
+
+N = int(input())
+
+q, d, n, p = 0.25, 0.1, 0.05, 0.01    # coins
+
+for i in range(N):
+    c = int(input()) / 100    # cent to dollar
+
+    print(int(c // q), int(np.ceil((c % q * 100))/100 // d), int(np.ceil(c % q % d *100)/100 // n), int(np.ceil(c % q % d % n *100)/100 // p), sep=' ')
+    
+    
+    
+#
+numpy를 사용하여 소수점 자리수를 표현할 수 있지만 문제에서 원하는 답이 아니라 
