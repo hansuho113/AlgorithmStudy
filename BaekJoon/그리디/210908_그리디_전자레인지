@@ -1,0 +1,38 @@
+# 제출 코드
+
+t = int(input())
+
+if t % 10 != 0:
+    print(-1)
+else:
+    print(t // 300, (t%300) // 60, (t%300%60) // 10, sep=' ')
+    
+    
+
+# 초기 코드
+
+B, C = 60, 10
+t = int(input())
+
+A_cnt, B_cnt, C_cnt = 0, 0, 0
+ox = 0
+
+while True:
+    if t % B == 0:
+        B_cnt += (t // B)
+        break
+    t -= C
+    C_cnt += 1
+    
+    if t == 0:
+        break
+    if t < C:
+        ox = -1
+        print(ox)
+        break
+if ox != -1:
+    if B_cnt >= 5:
+        print(str(B_cnt // 5), str(B_cnt % 5), str(C_cnt), sep=' ')
+        
+    else:
+        print("0", str(B_cnt), str(C_cnt), sep=' ')
