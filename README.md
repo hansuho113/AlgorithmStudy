@@ -1,6 +1,7 @@
-<<<<<<< HEAD
+
 # Algorithm Study
 ALGORITHM
+
 [solved_ad]
 [이코테]
 
