@@ -26,7 +26,6 @@ for i in range(0, size):
 
 init(autoreset=True)
 
-
 print("")
 print(Back.RED + "Merry".center(size + 2, ' '))
 print(Back.GREEN + "Christmas !".center(size + 2, ' '))
