@@ -22,4 +22,3 @@ for i in range(int(sys.stdin.readline())):
             print(-1)
         else:
             print(stack[-1])
-

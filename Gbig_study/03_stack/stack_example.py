@@ -21,6 +21,7 @@ class Stack(list):
             return True
         return False
 
+
 if __name__ == '__main__':
     s = Stack()
     s.push(1)
