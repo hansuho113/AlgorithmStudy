@@ -18,7 +18,6 @@ e = time.time()
 print(e-s)
 
 
-
 #
 #
 #

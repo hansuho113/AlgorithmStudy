@@ -1,6 +1,7 @@
 word = input().upper()
 
 apbs = list(set(word))   # set은 순서가 없는 자료형
+
 apb_dict = {}
 for i, apb in enumerate(apbs):
     apb_dict[apb] = word.count(apb)

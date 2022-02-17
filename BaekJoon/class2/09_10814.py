@@ -13,4 +13,5 @@ for i in range(len(profiles)):
     print(profiles[i][0], profiles[i][1])
 
 
+
 # 등록하는 나이를 int형으로 바꿔주지 않으면 정렬 시 에러 발생

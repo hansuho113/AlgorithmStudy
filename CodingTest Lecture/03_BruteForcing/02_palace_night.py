@@ -16,7 +16,6 @@ location = input()
 #     count += 1
 # print(count)
 
-
 sx = int(location[1])
 sy = int(ord(location[0])) - int(ord('a')) + 1
 

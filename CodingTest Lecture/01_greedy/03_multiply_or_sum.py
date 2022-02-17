@@ -17,6 +17,7 @@
 # print(start_num)
 # e = time.time()
 
+
 data = input()
 
 result = int(data[0])

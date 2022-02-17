@@ -13,3 +13,4 @@ else:
 
     if part_line != 0:
         print(s[(full_line)*10:(full_line*10+part_line)])    # 남은 일의 자리가 0이 아니라면 십의 자리 반복한 것 이후부터 출력
+

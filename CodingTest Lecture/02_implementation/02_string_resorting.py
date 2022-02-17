@@ -19,6 +19,7 @@
 # else:
 #     print(''.join(sorted(temp_strings)) + str(num))
 
+
 strings = list(input())
 temp_strings = []
 num = 0

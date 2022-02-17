@@ -1,4 +1,5 @@
 num_list = [int(input()) for i in range(9)]
+
 max = 0
 max_idx = 0
 

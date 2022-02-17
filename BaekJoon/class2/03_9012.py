@@ -1,4 +1,5 @@
 iter_num = int(input())
+
 for each_iter in range(iter_num):
     paranthesis = input()
     stack_list = []

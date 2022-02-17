@@ -13,4 +13,3 @@ for num in sorted_data:
 
 print(count)
 
-

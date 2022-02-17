@@ -1,6 +1,7 @@
 # 문자열을 거꾸로 읽어서 같은지 확인
 # reverse indexing 이용
 
+
 ### Try 1
 # while True:
 #     input_num = str(input())

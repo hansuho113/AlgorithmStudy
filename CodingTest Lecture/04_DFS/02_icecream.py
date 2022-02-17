@@ -17,6 +17,7 @@ def check_ice(x, y):
         return True
     return False
 
+
 ice_count = 0
 for n in range(N):
     for m in range(M):

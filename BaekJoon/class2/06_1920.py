@@ -28,6 +28,7 @@ def binary_search(num, num_list):
 
 
 
+
 # def binary_search(num, num_list, first, last):
 #     if (len(num_list) == 0) | (num > num_list[-1]):  # list가 없거나 찾는 수가 (정렬된)리스트에 없을 경우
 #         print(0)
