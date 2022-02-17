@@ -20,4 +20,3 @@ if __name__ == '__main__':
     for i in range(num):
         x[i] = int(input(f'x[{i}]값을 입력하시오.'))
     print(f"최대값은 {find_max(x)}입니다")
-

@@ -23,3 +23,4 @@ while True:
         print(cnt)
         break
     num = new_num
+

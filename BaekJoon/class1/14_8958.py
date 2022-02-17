@@ -1,5 +1,4 @@
 test_size = int(input())
-
 for test in range(test_size):
     exp = input()
     exp = exp.replace("X", ".").split(".")

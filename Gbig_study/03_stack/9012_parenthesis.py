@@ -20,6 +20,7 @@ for _ in range(num):
         print("YES")
     else: print("NO")
 
+
 # sys.stdin.readline() 개행문자 처리
 # input = sys.stdin.readline()
 # a = list(input)

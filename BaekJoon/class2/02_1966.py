@@ -1,6 +1,5 @@
 numbers = int(input())
 
-
 for number in range(numbers):
     item_num, item_loc = map(int, input().split())
     items = list(input().split())

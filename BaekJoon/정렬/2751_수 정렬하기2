@@ -8,3 +8,4 @@ for _ in range(N):
 
 for n in sorted(num_list):
     sys.stdout.write(str(n) + "\n")    
+

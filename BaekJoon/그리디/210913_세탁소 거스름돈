@@ -6,7 +6,6 @@ for i in range(N):
     c = int(input())
     print(c//q, (c%q)//d, (c%q%d)//n, (c%q%d%n)//p, sep=' ')
     
-    
 
 
 

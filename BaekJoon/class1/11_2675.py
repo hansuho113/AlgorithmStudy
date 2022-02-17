@@ -1,5 +1,4 @@
 iter_num = int(input())
-
 for i in range(iter_num):
     str_num, string = input().split()
 

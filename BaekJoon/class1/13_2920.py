@@ -1,5 +1,4 @@
 scale = "".join(input().split())
-
 if scale == "12345678":
     print("ascending")
 elif scale == "87654321":

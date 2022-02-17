@@ -19,6 +19,7 @@ for direction in directions:
 
 print(sx, sy)
 
+
 # for direction in directions:
 #     if direction == "R":
 #         tx = sx + dx[0]
